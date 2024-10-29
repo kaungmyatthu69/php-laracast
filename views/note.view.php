@@ -7,7 +7,7 @@
       <!-- Your content -->
        <a href="/notes" class="text-blue-500 underline">Back to Notes</a>
        <div>
-       <?= $note['body'] ?>
+       <?= htmlspecialchars($note['body']) ?>
 
        </div>
           
